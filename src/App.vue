@@ -115,7 +115,7 @@ export default {
 }
 
 .gallery-image {
-  max-width: 75%;
+  max-width: 50%;
   height: auto;
   border-radius: 1rem 1rem 0 0; /* Bordes más redondeados en la parte superior */
 }
