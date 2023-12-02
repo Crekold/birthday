@@ -32,8 +32,8 @@
   Tu amorcito<br>
 </p>
   </div>
-  <div class="youtube-video-title">
-  <h2>Título del video</h2>
+  <div class="youtube-video-title justify-content-center">
+  <h2>Te la dedico</h2>
 </div>
   <div class="youtube-video-container">
       <iframe
@@ -107,11 +107,13 @@ export default {
 }
 .youtube-video-title {
   font-family: 'Handlee', cursive;
-  margin: 0; /* Elimina el margen predeterminado */
-  display: inline-block; /* Hace que el título se comporte como un elemento en línea para trabajar con flexbox */
   font-size: 4rem;
-  color: #000; /* Espacio entre el título y la galería */
+  color: #000;
+  text-align: center; /* Alinea el texto al centro */
+  margin-top: 2rem; /* Espacio en la parte superior */
+  margin-bottom: 1rem; /* Espacio antes del contenedor del video */
 }
+
 .gallery-container {
   background-color: #fff; /* Fondo blanco para la galería */
   border: 5px solid #FCE4EC; /* Borde rosa para la galería */
